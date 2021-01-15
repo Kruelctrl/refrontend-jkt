@@ -10,5 +10,44 @@
             "price": 567890,
             "status": "avaiable"
           }
-    ]
+    ],
+
+    "users": [
+        {
+          "email": "user@gmail.com",
+          "password": "user1!",
+          "cart": [
+            {
+              "id": 2,
+              "date": "2021-01-12T03:20:41.718Z",
+              "name": "Mouse",
+              "serial": 1682697,
+              "stock": 6,
+              "category": "Electronic",
+              "price": 567890,
+              "status": "avaiable"
+            }
+          ],
+          "id": 1
+        },
+        {
+          "email": "rakhadhi@gmail.com",
+          "password": "rakhadhi1!",
+          "cart": [
+            {
+              "id": 1,
+              "date": "2021-01-12T03:20:41.718Z",
+              "name": "Iphone12",
+              "serial": 1682697,
+              "stock": 6,
+              "category": "Handphone",
+              "price": 567890,
+              "status": "avaiable"
+            }
+          ],
+          "id": 2
+        }
+      ],
+      "history": []
+    
 }
